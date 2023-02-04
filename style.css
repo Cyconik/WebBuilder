@@ -1,0 +1,76 @@
+
+.back{
+    height: 700px;
+    /* width: 100%; */
+   background-image: url('zyro-image.png');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: white;
+   font-family: 'Sitka Text','Arial';
+   animation: zoomIn;
+   animation-duration: 3s;
+   animation-delay: 0.5s;
+   
+}
+.header{
+    height: 50px;
+    /* position: fixed; */
+    width: 100%;
+}
+.animate{
+    animation: zoomIn;
+    animation-duration: 3s;
+   animation-delay: 0.5s;
+}
+.x{
+    animation: zoomIn 3s 0.5s;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.profile{
+    text-align: center;
+}
+.y{
+    font-family: 'Sitka Text','Arial'; 
+    font-size: 20px;
+}
+.about{
+    font-family: 'Sitka Text','Arial'; 
+    font-size: 40px; 
+    justify-content: center;
+    display: flex;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.service{
+    font-family: 'Sitka Text','Arial'; 
+    font-size: 40px; 
+    justify-content: center;
+    display: flex;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.z{
+    height: 200px;
+    width: 100%;
+    margin-top: 28px;
+    border-radius: 8PX;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.z:hover{
+    transform: scale(1.1);
+    transition: transform 0.50s;
+}
